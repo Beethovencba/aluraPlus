@@ -1,0 +1,23 @@
+.container__botao {
+   display: grid;
+   grid-template-columns: none;
+   align-items: center;
+   background: var(--botao-azul);
+   text-decoration: none;
+   border-radius: 5px;
+   color: var(--branco-principal);
+   padding: 1em;
+   margin: 1em 0;
+   transition: ease-in-out 0.5s;
+   font-size: 12px;
+}
+
+.container__botao:hover {
+    scale: 1.02;
+    background: blue;
+}
+
+.container__botao:active {
+    transition: none;
+    background: red;
+}
